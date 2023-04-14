@@ -1,0 +1,431 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.red-nav {
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.red-nav,
+.black-nav {
+    z-index: 20;
+}
+
+.red-nav .nav-left li {
+    display: inline-block;
+    padding-top: 15px;
+
+}
+
+.red-nav .nav-left li:last-child {
+    margin-left: 70px;
+    font-style: italic;
+}
+
+.red-nav .nav-right li {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.red-nav .nav-right li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.black-nav {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 34px;
+    right: 0;
+    left: 0;
+}
+
+.mid-class {
+    width: 70%;
+    display: flex;
+}
+
+.mid-class li {
+    width: 25%;
+    text-align: center;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.mid-class .link:hover {
+    color: red;
+}
+
+
+.mid-black-nav {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content,
+.dropdown-content-2,
+.dropdown-content-3,
+.dropdown-content-4 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content-3,
+.dropdown-content-4 {
+    min-width: 250px;
+}
+
+.dropdown-content a,
+.dropdown-content-2 a,
+.dropdown-content-3 a,
+.dropdown-content-4 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover,
+.dropdown-content-2 a:hover,
+.dropdown-content-3 a:hover,
+.dropdown-content-4 a:hover {
+    background-color: red;
+}
+
+.about-us:hover .dropdown-content,
+.programmes:hover .dropdown-content-2,
+.updates:hover .dropdown-content-3,
+.contact-us:hover .dropdown-content-4 {
+    display: block;
+}
+
+
+
+
+
+
+.mid-class li .link {
+    text-decoration: none;
+    color: white;
+}
+
+.mid-class li .home-link {
+    text-decoration: none;
+    color: white;
+}
+
+.mid-class .home {
+    width: 15%;
+    padding-top: 25px;
+}
+
+.black-nav .material-symbols-outlined {
+    position: relative;
+    top: 6px;
+    padding-left: 2px;
+    margin-left: -4px;
+}
+
+.last-class {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-nav .donate-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 22%;
+    margin: 7px auto;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.black-nav .bar {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: none;
+    font-size: 2.5rem;
+}
+
+.hide {
+    display: none;
+}
+main{
+    margin-top: 120px;
+}
+footer{
+    background-color: #3d3c3c;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer .upper-footer{
+    display: flex;
+    padding: 30px 0;
+    border-bottom: solid 1px white;
+}
+footer .email-input{
+    width: 50%;
+    display: flex;
+    padding: 15px 0;
+}
+.t{
+    display: table;
+    width: 100%;
+}
+footer .email-input input{
+    display: table-cell;
+    font-size: 1.9rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 70%;
+    padding-left: 3%;
+}
+footer .email-input input:focus {
+    border: none;
+    outline: none;
+}
+footer .email-input .button{
+    all: unset;
+    width: 30%;
+    height: 52px;
+    color: white;
+    background-color: red;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+footer .newsletter{
+    width: 50%;
+    font-size: 17px;
+    line-height: 14px;
+}
+::-webkit-input-placeholder {
+    padding-left: 1px;
+}
+footer .lower-footer{
+    display: flex;
+    width: 100%;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.foot-box-one{
+    width: 50%;
+    font-size: 16px;
+}
+.foot-box-two{
+    width: 20%;
+    font-size: 16px;
+}
+.foot-box-three{
+    width: 30%;
+    font-size: 16px;
+}
+.foot-box-two li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.foot-box-one div {
+    width: 100%;
+    line-height: 18px;
+}
+.foot-box-one .socials {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    padding: 20px 45%;
+}
+.foot-box-one .socials .fa-brands{
+    color: white;
+    padding: 2px 5px;
+
+}
+.foot-box-two li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 7px;
+}
+.modal{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 120px;
+    right: 0;
+    left: 0;
+    /* text-align: center; */
+}
+.modal .div-text h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.part-one{
+    margin-top: 130px;
+}
+.part-one .head-text{
+    text-align: center;
+    padding: 10px 20%;
+}
+.part-one .head-text h1{
+    font-size: 50px;
+    margin-top: -5px;
+}
+.part-one form select option:first-child{
+    display: none;
+}
+
+
+.part-one form {
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+margin: 30px 22%;
+padding: 5px 5%;
+margin-bottom: 150px;
+}
+form .form-header p{
+    font-size: 2rem;
+    font-weight:600;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border-bottom: #e7e4e4 2px solid ;
+}
+.part-one form #amount {
+    all: unset;
+    border: solid 1px ;
+    appearance: none;
+    display: block;
+    margin-bottom: 10px;
+    height: 3rem;
+    border-radius: 20px;
+    background-color: #e7e4e4;
+    border: none;
+    width: 40%;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+
+}
+.part-one form select{
+    all: unset;
+    border: solid 1px;
+        border-radius: 20px;
+        background-color: #181818;
+        border: none;
+        width: 25%;
+        padding: 15px 80px;
+        font-size: 1.2rem;
+        color: white;
+}
+form select .select-currency span i{
+    background-color: white;
+}
+.amount .fa-caret-down{
+    color: white;
+    position: relative;
+    left: -10%;
+}
+.form-body .first-last-name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.form-body .first-last-name .name{
+    width: 50%;
+}
+.form-body .first-last-name .firstname{
+    margin-right: 25px;
+}
+.form-body .first-last-name .name input{
+    width: 94%;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    margin-top: -10px;
+    background-color: #e7e4e4;
+    padding: 15px 15px;
+    border: none;
+}
+.form-body .email{
+    margin-top: 25px;
+}
+.form-body .email input{
+    width: 98%;
+    height: 2rem;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        margin-top: -7px;
+        background-color: #e7e4e4;
+        padding: 15px 15px;
+        border: none;
+}
+form .donation{
+    margin-top: 50px;
+}
+form .donation h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+form .donation h1 span {
+    color: red;
+}
+form .continue-btn{
+    background-color: red;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+@media only screen and (max-width: 1698px) and (min-width: 1600px) {
+/* .black-nav {
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+.black-nav span {
+    width: 45%;
+    padding: 2px 15px;
+    margin-left: 10px;
+}
+}
+
