@@ -347,13 +347,16 @@ form .form-header p{
 .part-one form select{
     all: unset;
     border: solid 1px;
-        border-radius: 20px;
-        background-color: #181818;
-        border: none;
-        width: 25%;
-        padding: 15px 80px;
-        font-size: 1.2rem;
-        color: white;
+    border-radius: 20px;
+    background-color: #181818;
+    border: none;
+    width: 38%;
+    padding: 17px 30px;
+    font-size: 1rem;
+    color: white;
+}
+.select-currency .select-currency-text{
+    border: solid 4px white;
 }
 form select .select-currency span i{
     background-color: white;
