@@ -26,6 +26,8 @@ body {
     right: 0;
 }
 
+
+
 .red-nav,
 .black-nav {
     z-index: 20;
@@ -44,7 +46,7 @@ body {
 
 .red-nav .nav-right li {
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 6px;
 }
 
 .red-nav .nav-right li a {
@@ -52,6 +54,10 @@ body {
     color: white;
     margin-left: 10px;
     font-size: 2rem;
+}
+
+.foot-box-one .socials .fa-brands{
+    color: white;
 }
 
 .black-nav {
@@ -69,8 +75,29 @@ body {
     left: 0;
 }
 
+.pre-class{
+    width: 10%;
+}
+
+.last-class {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-nav .donate-btn {
+    width: 100%;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 1px;
+    border: none;
+}
+
 .mid-class {
-    width: 70%;
+    padding-right: 20px;
+    width: 75%;
     display: flex;
 }
 
@@ -79,6 +106,9 @@ body {
     text-align: center;
     padding-top: 15px;
     list-style: none;
+}
+.mid-class .programmes{
+    width: 30%;
 }
 
 .mid-class .link:hover {
@@ -159,28 +189,6 @@ body {
     margin-left: -4px;
 }
 
-.last-class {
-    width: 18%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.black-nav .donate-btn {
-    background-color: red;
-    color: white;
-    padding: 15px 22%;
-    margin: 7px auto;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-.black-nav .bar {
-    all: unset;
-    cursor: pointer;
-    color: white;
-    background-color: none;
-    font-size: 2.5rem;
-}
 
 .hide {
     display: none;
@@ -210,11 +218,12 @@ footer .email-input{
 }
 footer .email-input input{
     display: table-cell;
-    font-size: 1.9rem;
+    font-size: 1.2rem;
+    font-weight: 100;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border: none;
-    height: 50px;
+    height: 40px;
     width: 70%;
     padding-left: 3%;
 }
@@ -225,12 +234,13 @@ footer .email-input input:focus {
 footer .email-input .button{
     all: unset;
     width: 30%;
-    height: 52px;
+    height: 42px;
     color: white;
     background-color: red;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: center;
+    font-size: 15px;
 }
 
 footer .newsletter{
@@ -274,11 +284,7 @@ footer .lower-footer{
     font-size: 2rem;
     padding: 20px 45%;
 }
-.foot-box-one .socials .fa-brands{
-    color: white;
-    padding: 2px 5px;
 
-}
 .foot-box-two li a{
     text-decoration: none;
     color: white;
