@@ -108,7 +108,8 @@ body {
     padding-top: 15px;
     list-style: none;
 }
-.mid-class .programmes{
+.mid-class .programmes,
+.mid-class .contact-us{
     width: 30%;
 }
 
@@ -380,15 +381,16 @@ form .form-header p{
 
 
 .part-one form select{
-    appearance: none;
-    outline: none;
-    padding: 15px 10px 15px 10px;
-    width: 38%;
+    /* appearance: none;
+    outline: none; */
+    padding: 15px 0 15px 20px;
+    width: 46%;
     font-size: 0.9rem;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #181818;
     border: none;
     color: white;
+    border-right: 14px solid transparent
 }
 .form-body .first-last-name{
     display: flex;
@@ -446,15 +448,11 @@ form .continue-btn{
     color: white;
 }
 
+
+  
+
+
 @media only screen and (max-width: 1698px) and (min-width: 1600px) {
-/* .black-nav {
-    padding-left: 10%;
-    padding-right: 10%;
-} */
-.black-nav span {
-    width: 45%;
-    padding: 2px 15px;
-    margin-left: 10px;
-}
+
 }
 
