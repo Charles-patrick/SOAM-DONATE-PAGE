@@ -58,6 +58,7 @@ body {
 
 .foot-box-one .socials .fa-brands{
     color: white;
+    margin: 1px 10px;
 }
 
 .black-nav {
@@ -91,7 +92,7 @@ body {
     color: white;
     border-radius: 20px;
     font-size: 15px;
-    margin: 10px 1px;
+    margin: 15px 1px;
     border: none;
 }
 
@@ -161,8 +162,10 @@ body {
 .contact-us:hover .dropdown-content-4 {
     display: block;
 }
-
-
+.dropdown-content-3,
+.dropdown-content-4 {
+    left: -35px;
+}
 
 
 
@@ -259,30 +262,48 @@ footer .lower-footer{
 }
 
 .foot-box-one{
-    width: 50%;
+    width: 55%;
     font-size: 16px;
 }
 .foot-box-two{
-    width: 20%;
+    padding-top: 70px;
+    width: 15%;
     font-size: 16px;
 }
+.foot-box-two h1{
+    font-weight: 400;
+}
+
 .foot-box-three{
+    padding-top: 70px;
     width: 30%;
     font-size: 16px;
+    margin-left: 30px;
+}
+.foot-box-three .location{
+    line-height: 25px;
+}
+.foot-box-three h1{
+    font-weight: 400;
 }
 .foot-box-two li{
     list-style: none;
     margin-bottom: 5px;
 }
-.foot-box-one div {
-    width: 100%;
-    line-height: 18px;
+.foot-box-one .lorem-text {
+    width: 95%;
+    line-height: 25px;
+    border-bottom: solid 0.5px ;
+}
+.foot-box-one .logo-div{
+    width: 90%;
+    line-height: 25px;
 }
 .foot-box-one .socials {
     list-style: none;
     display: flex;
-    font-size: 2rem;
-    padding: 20px 45%;
+    font-size: 1.5rem;
+    padding: 20px 4%;
 }
 
 .foot-box-two li a{
@@ -340,37 +361,34 @@ form .form-header p{
     border: solid 1px ;
     appearance: none;
     display: block;
-    margin-bottom: 10px;
-    height: 3rem;
-    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 2rem;
+    border-radius: 30px;
     background-color: #e7e4e4;
     border: none;
     width: 40%;
     padding: 5px 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
+
+#amount[type=number]::-webkit-inner-spin-button, 
+#amount[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+
+
 .part-one form select{
-    all: unset;
-    border: solid 1px;
+    appearance: none;
+    outline: none;
+    padding: 15px 10px 15px 10px;
+    width: 38%;
+    font-size: 0.9rem;
     border-radius: 20px;
     background-color: #181818;
     border: none;
-    width: 38%;
-    padding: 17px 30px;
-    font-size: 1rem;
     color: white;
-}
-.select-currency .select-currency-text{
-    border: solid 4px white;
-}
-form select .select-currency span i{
-    background-color: white;
-}
-.amount .fa-caret-down{
-    color: white;
-    position: relative;
-    left: -10%;
 }
 .form-body .first-last-name{
     display: flex;
@@ -384,33 +402,35 @@ form select .select-currency span i{
     margin-right: 25px;
 }
 .form-body .first-last-name .name input{
+    all: unset;
     width: 94%;
     height: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 30px;
     margin-top: -10px;
     background-color: #e7e4e4;
-    padding: 15px 15px;
+    padding: 5px 15px;
     border: none;
 }
 .form-body .email{
     margin-top: 25px;
 }
 .form-body .email input{
+    all: unset;
     width: 98%;
     height: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         border-radius: 30px;
         margin-top: -7px;
         background-color: #e7e4e4;
-        padding: 15px 15px;
+        padding: 5px 15px;
         border: none;
 }
 form .donation{
     margin-top: 50px;
 }
 form .donation h1 {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 form .donation h1 span {
@@ -421,7 +441,7 @@ form .continue-btn{
     font-size: 1.2rem;
     border: none;
     border-radius: 30px;
-    padding: 20px 50px;
+    padding: 15px 50px;
     margin-bottom: 100px;
     color: white;
 }
